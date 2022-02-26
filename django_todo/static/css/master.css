@@ -1,0 +1,84 @@
+.goodheader{
+  width:100%;
+
+  padding:15px;
+  margin:0 auto;
+
+  color: #fff;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+  position: relative;
+  animation: change 60s ease-in-out infinite;
+}
+@keyframes change {
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+}
+
+.text_deco{
+  text-decoration:none;
+  color: black;
+}
+
+a:hover{
+  text-decoration:none;
+  color: white;
+}
+
+.past_due_date{
+  background-color: #FF2F2F;
+}
+
+.due_today{
+  background-color: #FFF75C;
+}
+
+.completed{
+  background-color: #77FF64;
+}
+
+#circle-red{
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background: red;
+  border-radius: 50%;
+  margin: 5px;
+  float:left;
+}
+
+#circle-green {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background: #77FF64;
+  border-radius: 50%;
+  margin: 5px;
+  float:left;
+  margin-left: 10px;
+}
+
+
+#circle-yellow {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background: #FFF75C;
+  border-radius: 50%;
+  margin: 5px;
+  float:left;
+  margin-left: 10px;
+}
+
+.dot_text{
+  float: left;
+  margin: 3px;
+  font-size: 12px;
+}

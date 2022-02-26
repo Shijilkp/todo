@@ -1,0 +1,115 @@
+body{
+	margin-top: 0;
+}
+#first{
+	color:green;
+	margin-top: 15px;
+	font-family: elephant;
+	font-size: 45px;
+
+}
+#tdo{
+	color: green;
+	
+	font-size: 40px;
+	font-family:franklin Gothick book;
+}
+.container-fluid{
+	margin: 20px;
+}
+.alert a{
+	text-align: center;
+}
+#list1 li{
+	display: inline;
+
+	font-size: 20px;
+	font-weight: bold;
+}
+#list2 li{
+	list-style-type: none;
+	font-size: 14px;
+}
+#list3 li{
+	list-style-type: none;
+}
+h5{
+	color: #00cc44;
+	text-decoration: underline;
+	margin-top: 40px;
+	font-weight: 700;
+}
+.col-sm-4 h5{
+	color: gray;
+}
+.col-sm-4 h2{
+	color: gray;
+}
+.col-sm-5{
+	background-color: ;
+}
+.col-sm-5 p{
+
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+
+}
+.col-sm-5 p a{
+		margin-left: 400px;
+		height: 30px;
+}
+.col-sm-4{
+	background-color: #f2f2f2;
+}
+#icon{
+	float: right;
+	margin-right: 15px;
+	margin-top: 20px;
+}
+.col-sm-4 h2{
+	font-size: 23px;
+}
+.col-sm-4 p{
+	text-align: justify;
+	font-size: 15px;
+}
+.col-sm-3{
+  background-color: #f5f5f0;
+}
+.col-sm-3 span{
+	color:#00cc44;
+	font-size: 20px;
+
+}
+.col-sm-3 a{
+	color:#00cc44;
+	margin-right: 10px;
+	font-size: 20px;
+}
+.col-sm-3 button{
+	background-color:#00b33c;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 15px;"
+}
+.box{
+	width: 450px;
+	height: 50px;
+	display: flex;
+	background-color: white;
+	align-items: center;
+	box-sizing: border-box;
+	
+}
+.box i{
+	font-size: 20px;
+	color: #777;
+}
+.box input{
+	flex: 1;
+	height: 40px;
+	border: none;
+	outline: none;
+	padding-left: 10px;
+}
